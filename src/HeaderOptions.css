@@ -1,0 +1,19 @@
+.headerOptions{
+    color:rgb(0, 0, 0,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.headerOptions:hover{
+color:black;
+}
+
+.headerOptions h4{
+font-weight: 450;
+}
+.avatar-style{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
